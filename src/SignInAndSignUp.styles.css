@@ -1,0 +1,534 @@
+.sign-in-and-sign-up {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    
+    
+}
+
+
+
+
+.hand{
+  
+  width: 40px;
+  height: 27px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(53, 52, 52);
+  margin: 5px;
+  position: absolute;
+  top: 370px;
+  left: 280px;
+}
+  
+.hand1{
+  width: 40px;
+  height: 30px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(53, 52, 52);
+  margin: 5px;
+  position: absolute;
+  top: 340px;
+  left: 280px;
+}
+
+
+
+
+
+.hand11{
+  width: 15px;
+  height: 17px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(243, 136, 185);
+  margin: 5px;
+  position: absolute;
+  top: 320px;
+  z-index: 1;
+  left: 290px;
+}
+
+.hand12{
+  width: 20px;
+  height: 19px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(243, 136, 185);
+  margin: 5px;
+  position: absolute;
+  top: 345px;
+  z-index: 1;
+  left: 297px;
+}
+.hand13{
+  width: 17px;
+  height: 17px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(243, 136, 185);
+  margin: 5px;
+  position: absolute;
+  top: 372px;
+  z-index: 1;
+  left: 300px;
+}
+
+.hand21{
+  width: 18px;
+  height: 17px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(243, 136, 185);
+  margin: 5px;
+  position: absolute;
+  top: 268px;
+  z-index: 1;
+  right: 273px;
+}
+
+.hand22{
+  width: 20px;
+  height: 19px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(243, 136, 185);
+  margin: 5px;
+  position: absolute;
+  top: 320px;
+  z-index: 1;
+  right: 275px;
+}
+.hand23{
+  width: 15px;
+  height: 13px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(243, 136, 185);
+  margin: 5px;
+  position: absolute;
+  top: 356px;
+  z-index: 1;
+  right: 270px;
+}
+
+.hand24{
+  width: 23px;
+  height: 20px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(243, 136, 185);
+  margin: 5px;
+  position: absolute;
+  top: 295px;
+  z-index: 1;
+  right: 280px;
+}
+
+
+
+
+.hand2{
+  width: 30px;
+  height: 30px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(53, 52, 52);
+  margin: 5px;
+  position: absolute;
+  top: 315px;
+  left: 280px;
+}
+
+
+/*second*/
+.hand3{
+  width: 40px;
+  height: 30px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(53, 52, 52);
+  margin: 5px;
+  position: absolute;
+  top: 315px;
+  right: 258px;
+}
+.hand4{
+  width: 50px;
+  height: 30px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(53, 52, 52);
+  margin: 5px;
+  position: absolute;
+  top: 290px;
+  right:258px;
+}
+.hand5{
+  width: 30px;
+  height: 24px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(53, 52, 52);
+  margin: 5px;
+  position: absolute;
+  top: 350px;
+  right:258px;
+}
+.hand6{
+  width: 35px;
+  height: 28px;
+   border-radius:50px;
+   box-shadow:0 2px 3px rgba(0,0,0,.15);
+  background-color: rgb(53, 52, 52);
+  margin: 5px;
+  position: absolute;
+  top: 263px;
+  right:258px;
+}
+
+
+
+.hit-area {
+  position:absolute;
+  width: 900px;
+  height: 500px;
+  margin-top: 20px;
+}
+
+.hitbox {
+  width:100px;
+  height:100px;
+  float:left;
+}
+
+.eye {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  left: 15%;
+  top: 5%;
+  background-color: white;
+  pointer-events: none;
+}
+
+.eye + .eye {
+  left: 30%;
+}
+
+.pupil {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  left: 50%;
+  top: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  transition: all .5s ease;
+}
+
+.eyelid {
+  width: 110px;
+  height: 30px;
+  background-color: #343132;
+  position: absolute;
+  left: 13%;
+  top: 2%;
+  pointer-events: none;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  transition: all .5s ease;
+}
+
+.eyelid + .eyelid {
+  left: 29%;
+}
+
+@keyframes blink {
+  0% {
+    top: 2%;
+  }
+  95% {
+    top: 2%;
+  }
+  100% {
+    top: 5%;
+  }
+}
+
+
+#h-2:hover  ~ .eyelid {
+  transform: rotate(-10deg);
+}
+
+#f-3:hover  ~ .eyelid {
+  transform: rotate(-10deg);
+}
+
+
+#f-2:hover  ~ .eyelid {
+  transform: rotate(10deg);
+}
+
+#h-1:hover  ~ .eyelid {
+  transform: rotate(10deg);
+}
+
+#i-5:hover  ~ .eyelid {
+  transform: rotate(10deg);
+}
+#i-4:hover  ~ .eyelid {
+  transform: rotate(10deg);
+}
+
+#g-5:hover  ~ .eyelid {
+  transform: rotate(10deg);
+}
+#g-4:hover  ~ .eyelid {
+  transform: rotate(10deg);
+}
+
+
+#i-1:hover ~ .eyelid:nth-of-type(2n+1) {
+  transform: rotate(15deg);
+}
+
+
+#i-1:hover ~ .eyelid {
+  transform: rotate(-15deg);
+}
+
+#h-5:hover ~ .eyelid:nth-of-type(2n+1) {
+  transform: rotate(15deg);
+}
+
+
+#h-5:hover ~ .eyelid {
+  transform: rotate(-15deg);
+}
+
+#h-4:hover ~ .eyelid:nth-of-type(2n+1) {
+  transform: rotate(15deg);
+}
+
+
+#h-4:hover ~ .eyelid {
+  transform: rotate(-15deg);
+}
+
+
+
+#a-3:hover ~ .eye .pupil {
+  background-color: red;
+}
+
+#a-1:hover ~ .eye > .pupil {
+  transform: rotate(0deg) translate(-20px);
+}
+
+#a-2:hover ~ .eye > .pupil {
+  transform: rotate(0deg) translate(0px);
+}
+
+#a-3:hover ~ .eyelid {
+  transform:  rotate(15deg);
+}
+
+#a-3:hover ~ .eyelid:nth-of-type(2n+1) {
+  transform: rotate(-15deg);
+}
+
+#e-1:hover ~ .eyelid {
+  transform:  rotate(15deg);
+}
+
+#e-1:hover ~ .eyelid:nth-of-type(2n+1) {
+  transform: rotate(-15deg);
+}
+
+
+
+#a-3:hover ~ .eye > .pupil {
+  transform: rotate(0deg) translate(20px);
+}
+
+#a-3:hover ~ .eye:nth-of-type(2n+1) > .pupil {
+  transform: rotate(0deg) translate(-20px);
+}
+
+#a-4:hover ~.eye > .pupil {
+  transform: rotate(0deg) translate(0px);
+}
+
+#a-5:hover ~ .eye > .pupil {
+  transform: rotate(0deg) translate(20px);
+}
+
+#b-1:hover ~ .eye > .pupil {
+  transform: rotate(0deg) translate(20px);
+}
+
+#b-2:hover ~ .eye > .pupil {
+  transform: rotate(0deg) translate(30px);
+}
+
+#b-3:hover ~ .eye > .pupil {
+  transform: rotate(0deg) translate(35px);
+}
+
+#b-4:hover ~.eye > .pupil {
+  transform: rotate(0deg) translate(35px);
+}
+
+#b-5:hover ~ .eye > .pupil {
+  transform: rotate(-40deg) translate(-20px);
+}
+
+#c-1:hover ~ .eye > .pupil {
+  transform: rotate(-60deg) translate(-25px);
+}
+
+#c-2:hover ~ .eye > .pupil {
+  transform: rotate(-90deg) translate(-15px);
+}
+
+#c-3:hover ~.eye > .pupil {
+  transform: rotate(-100deg) translate(-20px);
+}
+
+#c-4:hover ~.eye > .pupil {
+  transform: rotate(-110deg) translate(-25px);
+}
+
+#c-5:hover ~ .eye > .pupil {
+  transform: rotate(-120deg) translate(-25px);
+}
+
+#d-1:hover ~ .eye > .pupil {
+  transform: rotate(-125deg) translate(-25px);
+}
+
+#d-2:hover ~ .eye > .pupil {
+  transform: rotate(-130deg) translate(-30px);
+}
+
+#d-3:hover ~ .eye > .pupil {
+  transform: rotate(-140deg) translate(-30px);
+}
+
+#d-4:hover ~.eye > .pupil {
+  transform: rotate(-65deg) translate(-25px);
+}
+
+#d-5:hover ~ .eye > .pupil {
+  transform: rotate(-70deg) translate(-20px);
+}
+
+#e-1:hover ~ .eye > .pupil {
+  transform: rotate(-80deg) translate(-20px);
+}
+
+#e-2:hover ~ .eye > .pupil {
+  transform: rotate(-100deg) translate(-20px);
+}
+
+#e-3:hover ~ .eye > .pupil {
+  transform: rotate(-110deg) translate(-25px);
+}
+
+#e-4:hover ~.eye > .pupil {
+  transform: rotate(-120deg) translate(-25px);
+}
+
+#e-5:hover ~ .eye > .pupil {
+  transform: rotate(-120deg) translate(-30px);
+}
+#f-1:hover ~ .eye > .pupil {
+  transform: rotate(-130deg) translate(-30px);
+}
+
+#f-2:hover ~ .eye > .pupil {
+  transform: rotate(-140deg) translate(-30px);
+}
+
+#f-3:hover ~ .eye > .pupil {
+  transform: rotate(-70deg) translate(-30px);
+}
+
+#f-4:hover ~.eye > .pupil {
+  transform: rotate(-90deg) translate(-30px);
+}
+
+#f-5:hover ~ .eye > .pupil {
+  transform: rotate(-110deg) translate(-30px);
+}
+#g-1:hover ~ .eye > .pupil {
+  transform: rotate(-110deg) translate(-30px);
+}
+
+#g-2:hover ~ .eye > .pupil {
+  transform: rotate(-110deg) translate(-30px);
+}
+
+#g-3:hover ~ .eye > .pupil {
+  transform: rotate(-120deg) translate(-30px);
+}
+
+#g-4:hover ~.eye > .pupil {
+  transform: rotate(-130deg) translate(-30px);
+}
+
+#g-5:hover ~ .eye > .pupil {
+  transform: rotate(-130deg) translate(-30px);
+}
+#h-1:hover ~ .eye > .pupil {
+  transform: rotate(-140deg) translate(-30px);
+}
+
+#h-2:hover ~ .eye > .pupil {
+  transform: rotate(-80deg) translate(-30px);
+}
+
+#h-3:hover ~ .eye > .pupil {
+  transform: rotate(-80deg) translate(-30px);
+}
+
+#h-4:hover ~.eye > .pupil {
+  transform: rotate(-100deg) translate(-30px);
+}
+
+#h-5:hover ~ .eye > .pupil {
+  transform: rotate(-110deg) translate(-30px);
+}
+#i-1:hover ~ .eye > .pupil {
+  transform: rotate(-120deg) translate(-30px);
+}
+
+#i-2:hover ~ .eye > .pupil {
+  transform: rotate(-130deg) translate(-30px);
+}
+
+#i-3:hover ~ .eye > .pupil {
+  transform: rotate(-140deg) translate(-30px);
+}
+
+#i-4:hover ~.eye > .pupil {
+  transform: rotate(-140deg) translate(-30px);
+}
+
+#i-5:hover ~ .eye > .pupil {
+  transform: rotate(-150deg) translate(-30px);
+}
+
+
+

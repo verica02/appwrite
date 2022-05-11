@@ -1,0 +1,23 @@
+.custom-button {
+  background: #fff;
+  padding: 10px;
+  width: 160px;
+  height: 50px;
+  border:1px solid #FF4081;
+  margin-top: 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition : all 0.5s;
+  box-shadow:0 50px #FF4081 inset;
+  color: #fafafa;
+  
+    &:hover{
+        box-shadow:0 0 #FF4081 inset;
+        color: #FF4081;
+    }
+    &:focus{
+      outline: none;
+    }
+  }
+  

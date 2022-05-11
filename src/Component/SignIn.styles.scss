@@ -1,0 +1,114 @@
+.sign-in 
+{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 253, 253);
+    padding: 20px;
+ 
+    margin: auto;
+    margin-top: 150px;
+   
+ 
+}
+
+
+h2
+{
+  margin:20px;
+}
+
+
+.button1
+{
+    
+    background: #fff;
+    padding: 10px;
+    width: 160px;
+    height: 50px;
+    border:1px solid #e7739a;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 10px;
+    transition : all 0.5s;
+    box-shadow:0 50px #FF4081 inset;
+    color: #fafafa;
+    
+      &:hover{
+          box-shadow:0 0 #FF4081 inset;
+          color: #FF4081;
+      }
+      &:focus{
+        outline: none;
+      }   
+  
+}
+
+
+.button2
+{
+    
+        background: #fff;
+        padding: 10px;
+        width: 160px;
+        height: 50px;
+        border:1px solid #FF4081;
+        margin-top: 20px;
+        font-size: 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition : all 0.5s;
+        box-shadow:0 50px #FF4081 inset;
+        color: #fafafa;
+        
+          &:hover{
+              box-shadow:0 0 #FF4081 inset;
+              color: #FF4081;
+          }
+          &:focus{
+            outline: none;
+          }
+      
+  
+}
+
+.buttons
+{
+    display: flex;
+    margin:5px;
+    padding: 5px;
+
+}
+
+
+.form
+{
+  margin: 20px;
+}
+
+
+.form input[type="text"], .form input[type="password"] {
+
+
+&:focus {
+  color:#FF4081;
+  border-color: #FF4081;
+
+  border-width: 2px;
+}
+}
+
+
+.form input[type="text"], .form input[type="email"] {
+
+  
+  &:focus {
+    color:#FF4081;
+    border-color: #FF4081;
+    //all text changes to red
+   //border is bolder
+    border-width: 2px;
+    
+  }
+  }
