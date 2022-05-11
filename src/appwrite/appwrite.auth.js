@@ -3,8 +3,8 @@ import { Appwrite } from "appwrite";
 const sdk = new Appwrite();
 
 sdk
-    .setEndpoint('http://localhost/v1') // Your API Endpoint
-    .setProject('627918ca4420039a2b73') // Your project ID
+    .setEndpoint(' ') // Your API Endpoint
+    .setProject(' ') // Your project ID
 ;  
 
 export const createUser = (email,password,name)=>{
